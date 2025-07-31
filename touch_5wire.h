@@ -38,7 +38,6 @@ typedef struct{
 
 }TOUCH_5WIRE_t;
 
-
 void touch_5wire_init(
 		TOUCH_5WIRE_t* Ts,
 		ADC_HandleTypeDef *hadc,uint32_t Channel,

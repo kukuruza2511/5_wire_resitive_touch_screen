@@ -18,15 +18,12 @@ void touch_5wire_init(
 
 	Ts->Sen_ADC.hadc = hadc;
 	Ts->Sen_ADC.Channel = Channel;
-
 	Ts->Sen_GPIO.GPIOx = GPIO_Sen;
 	Ts->Sen_GPIO.Pin = Pin_Sen;
-
 	Ts->LR.GPIOx = GPIO_LR; Ts->LR.Pin = Pin_LR;
 	Ts->LL.GPIOx = GPIO_LL; Ts->LL.Pin = Pin_LL;
 	Ts->UR.GPIOx = GPIO_UR; Ts->UR.Pin = Pin_UR;
 	Ts->UL.GPIOx = GPIO_UL; Ts->UL.Pin = Pin_UL;
-
 	Ts->total_x = 0;
 	Ts->total_y = 0;
 	Ts->current_index_x = 0;
