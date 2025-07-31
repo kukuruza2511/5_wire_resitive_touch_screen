@@ -14,6 +14,8 @@ To detect touch positions, the library dynamically switches the GPIO pin configu
 - **Idle Mode**: All touch pins are in high-impedance or grounded state to avoid false readings.
 - **Read Mode**: Two opposing corners are powered to create a voltage gradient along the X or Y axis. The center sense pin is read via ADC to determine the touch position.
 
+![Configurate Pinout](config_pinout.png)
+
 To use library
 ## 1. Add the library to your project
 
