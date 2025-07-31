@@ -2,7 +2,9 @@
 
 This is a driver library for interfacing a **5-wire resistive touchscreen** with STM32 microcontrollers.  
 The 5-wire touchscreen technology uses five connection lines to detect the location of a touch input. This library supports raw ADC reading, pin switching between idle and sensing mode, and position mapping after calibration.
+
 ![5 wire resitive touch screen pinout](https://europe1.discourse-cdn.com/arduino/original/4X/e/a/1/ea1a0486fc4d8ee15b80b2ed888aeded4aeb940f.gif)
+
 A 5-wire resistive touchscreen consists of two conductive layers:
 - The **bottom layer** is fixed and connected to 4 corners (UL, UR, LL, LR)
 - The **top layer** acts as a flexible probe (common line)
