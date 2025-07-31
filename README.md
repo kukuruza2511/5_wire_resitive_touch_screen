@@ -22,7 +22,7 @@ Copy all touch_5wire.c and touch_5wire.h files into your STM32 project and inclu
 
 ## 2. Declare variables and screen dimensions
 Initialize a variable of type TOUCH_5WIRE_t for your screen and declare the length and width boundaries of your screen. For example:
-<pre> ```c // C
+<pre> 
 TOUCH_5WIRE_t Ts;
 uint16_t length = 248;
 uint16_t width = 186;
