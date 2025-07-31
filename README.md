@@ -9,6 +9,7 @@ A 5-wire resistive touchscreen consists of two conductive layers:
 - The **bottom layer** is fixed and connected to 4 corners (UL, UR, LL, LR)
 - The **top layer** acts as a flexible probe (common line)
 When touched, the top layer contacts the bottom layer at a point, forming a voltage divider. By alternately powering the X and Y axes and sensing the voltage, the position of the touch can be calculated.
+
 To detect touch positions, the library dynamically switches the GPIO pin configuration between two modes:
 - **Idle Mode**: All touch pins are in high-impedance or grounded state to avoid false readings.
 - **Read Mode**: Two opposing corners are powered to create a voltage gradient along the X or Y axis. The center sense pin is read via ADC to determine the touch position.
